@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>KyzerNetwork</title>
+        <link rel="stylesheet" href="Style.css" />
+        <link rel="icon" href="kyzerlogoonly.png">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Copy to Clipboard</title>
+    </head>
+    <body>
+        <!-- NAVIGATION BAR -->
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="index.html" class="a-navbar">HOME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="store.html" class="a-navbar">STORE</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="staff.html" class="a-navbar">STAFF</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="perks.html" class="a-navbar">PERKS</a>
+                </li>
+            </ul>
+        </div>
+        <!-- NAVIGATION BAR SELESAI -->
+        <div class="container-content">
+            <img src="kyzerlogoonly-removebg-preview.png" class="img-content" />
+        </div>
+        <!-- CONTENT PERKENALAN -->
+        <div class="container-home">
+            <body>
+                <h1>Copy Ip KyzerNetwork!!!</h1>
+                            <!-- The text field -->
+            <input type="text" value="play.KyzerNetwork.top" id="copyText" readonly>
+            <!-- The button used to copy the text -->
+            <button id="copyBtn">Copy text</button>
+            <!--using sweetalert via CDN -->
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+            <script>
+                const copyBtn = document.getElementById('copyBtn')
+                const copyText = document.getElementById('copyText')
+                
+                copyBtn.onclick = () => {
+                    copyText.select();    // Selects the text inside the input
+                    document.execCommand('copy');    // Simply copies the selected text to clipboard 
+                     Swal.fire({         //displays a pop up with sweetalert
+                        icon: 'success',
+                        title: 'Text copied to clipboard',
+                        showConfirmButton: false,
+                        timer: 1000
+                    });
+                }
+            </script>
+                <h1>This server was found by ipanraman and RampageAniq23, 
+                </h1>
+                <h1>This server is still very fresh so it would be nice to play this server immediately,
+                </h1>
+                <h1>
+                    The server was found on May 13th, 2023, In this server there are still some bugs,
+                </h1>
+                <h1>
+                    please understand. 
+                </h1>
+                <a href="file:///C:/Users/USER/Downloads/Website%20KyzerNetwork/store.html">
+                    <img src="VIP_LOGO-removebg-preview.png" class="vip-content">
+                </a>
+                <a href="file:///C:/Users/USER/Downloads/Website%20KyzerNetwork/store.html">
+                    <img src="VIP+_LOGO-removebg-preview.png" class="vipplus-content">
+                </a>
+                <a href="file:///C:/Users/USER/Downloads/Website%20KyzerNetwork/store.html">
+                    <img src="MVP_LOGO-removebg-preview.png" class="mvp-content">
+                </a>
+            </body>
+        </div>
+        <!-- CONTENT STORE -->
+        <div>
+
+        </div>
+        <!-- CONTENT STAFF -->
+        <div>
+
+        </div>
+        <!-- CONTENT PERKS -->
+        <div>
+
+        </div>
+        <!-- CONTENT END -->
+        <div>
+
+        </div>
+        <!-- FOOTER -->
+        <div>
+        </div>
+        <!-- FOOTER END -->
+    </body>
+</html>

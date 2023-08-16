@@ -1,0 +1,329 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/1110820574579671081/1123985033514995892/fotolobbykyzerorking.png);
+    background-size: 100%;
+}
+
+.container-navbar {
+    background-color: #333333;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font: caption;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    color: white;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgrole {
+    width: 80%;
+    height: 80%;
+}
+
+.img-content {
+    width: 198;
+    height: 198;
+}
+
+.rampage-only {
+    width: 15%;
+    height: 50%;
+    margin: 50px;
+    background-color: gray;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.ipan-only {
+    width: 15%;
+    height: 50%;
+    margin: 50px;
+    background-color: gray;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.vip-logo {
+    width: 20%;
+    height: 40%;
+}
+
+.vipplus-logo {
+    width: 20%;
+    height: 40%;
+}
+
+.mvp-logo {
+    width: 20%;
+    height: 40%;
+}
+
+.mvpplus-logo {
+    width: 20%;
+    height: 40%;
+}
+
+.legend-logo {
+    width: 20%;
+    height: 40%;
+}
+
+.special-logo {
+    width: 20%;
+    height: 40%;
+}
+
+.textZYK {
+    max-width: 15rem;
+    text-align: start;
+    font: bolder;
+}
+
+.textREK {
+    max-width: 16rem;
+    text-align: start;
+    font: bolder;
+}
+
+.container-home {
+    color: white;
+    font: small-caption;
+}
+
+.textIPK {
+    max-width: 15rem;
+    text-align: start;
+    font: bolder;
+}
+
+.only-ipan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: caption;
+}
+
+.vip-content {
+    width: 30%;
+    height: 60%;
+    justify-content:  end;
+    align-items: end;
+    transition: 0.3s;
+    border-radius: 1px;
+}
+
+.vip-content:hover {
+    transform: scale(1.05);
+}
+
+.info-role {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: caption;
+    font-size: xx-large;
+}
+
+.mvp-content {
+    width: 30%;
+    height: 60%;
+    justify-content:  start;
+    align-items: start;
+    transition: 0.3s;
+}
+
+.mvp-content:hover {
+    transform: scale(1.05);
+}
+
+.vipplus-content {
+    width: 30%;
+    height: 60%;
+    justify-content:  start;
+    align-items: start;
+    transition: 0.3s;
+}
+
+.vipplus-content:hover {
+    transform: scale(1.05);
+}
+
+.container-perks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: blue;
+    text-decoration: none;
+    font: bolder;
+}
+
+.container-perks:hover {
+    transform: scale(1.05);
+  }
+
+.container-perksimg {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font: caption;
+}
+
+.container-staff {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: caption;
+}
+
+.container-staffa {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: caption;
+}
+
+.rampage-content {
+    width: 15%;
+    height: 50%;
+    margin: 50px;
+    background-color: gray;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+.rampage-content:hover {
+    transform: scale(1.05);
+}
+
+.rampage2-content {
+    width: 15%;
+    height: 50%;
+    margin: 50px;
+    background-color: gray;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.nameRA {
+    font: caption;
+    font-size: xx-large;
+    color: white;
+    font: bolder;
+}
+
+.textRAK-content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: caption;
+    font-size: xx-large;
+}
+
+.container-rampage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: caption;
+}
+
+.ipan-content {
+    width: 15%;
+    height: 50%;
+    margin: 50px;
+    background-color: gray;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+.ipan-content:hover {
+    transform: scale(1.05);
+}
+
+.renei-content {
+    width: 15%;
+    height: 50%;
+    margin: 50px;
+    background-color: gray;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+.renei-content:hover {
+    transform: scale(1.05);
+}
+
+.zyclex-content {
+    width: 15%;
+    height: 50%;
+    margin: 50px;
+    background-color: gray;
+    border: black;
+    border-radius: 10px;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+.zyclex-content:hover {
+    transform: scale(1.05);
+}
+
+.text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: caption;
+}
