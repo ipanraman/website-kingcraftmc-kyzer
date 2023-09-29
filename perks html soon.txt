@@ -2,7 +2,6 @@
     <head>
         <title>KyzerNetwork</title>
         <link rel="stylesheet" href="Style.css" />
-        <link rel="icon" href="kyzerlogoonly.png">
     </head>
     <body>
         <!-- NAVIGATION BAR -->
@@ -20,9 +19,6 @@
                 <li class="li-navbar">
                     <a href="perks.html" class="a-navbar">PERKS</a>
                 </li>
-                <li class="li-navbar">
-                    <a href="discord.html" class="a-navbar">DISCORD</a>
-                </li>
             </ul>
         </div>
         <!-- NAVIGATION BAR SELESAI -->
@@ -30,12 +26,12 @@
             <img src="kyzerlogoonly-removebg-preview.png" class="img-content" />
         </div>
         <!-- CONTENT PERKENALAN -->
-        <div class="container-perks">
+        <div>
             <body>
-                <a href="file:///C:/Users/USER/Downloads/Website%20KyzerNetwork/Global.html">
-                    <h1>🌐Global</h1>
-                </a>
+                <a href="file:///C:/Users/USER/Downloads/Website%20KyzerNetwork/perks.html" class="container-perks">🌐Global</a>
+                <img src="PerksGlobal-modifiedd.png" class="container-perksimg">
             </body>
+        </div>
         </div>
         <!-- CONTENT STORE -->
         <div>

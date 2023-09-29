@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://cdn.discordapp.com/attachments/1110820574579671081/1123985033514995892/fotolobbykyzerorking.png);
+    background-image: url(https://cdn.discordapp.com/attachments/1122213551419957321/1150212209973153852/2023-09-09.png?ex=65175e98&is=65160d18&hm=d4da4deb2e9e0fc068c03629da7f5a1ac8b539964d034d9fea64c0647d2bfb91&);
     background-size: 100%;
 }
 
@@ -27,6 +27,19 @@ body {
     text-decoration: none;
 }
 
+.login-navbar {
+    color: white;
+    text-decoration: none;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 108, 255);
+    border-radius: 100px;
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+}
+
 .container-content {
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -43,6 +56,7 @@ body {
     width: 198;
     height: 198;
 }
+
 
 .rampage-only {
     width: 15%;
@@ -103,24 +117,30 @@ body {
 .textZYK {
     max-width: 15rem;
     text-align: start;
-    font: bolder;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    color: #000;
 }
 
 .textREK {
     max-width: 16rem;
     text-align: start;
-    font: bolder;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    color: #000;
 }
 
 .container-home {
-    color: white;
-    font: small-caption;
+    color: #000;
+    font-family: Arial, sans-serif;
 }
 
 .textIPK {
     max-width: 15rem;
     text-align: start;
-    font: bolder;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    color: #000;
 }
 
 .only-ipan {
@@ -208,19 +228,21 @@ body {
 }
 
 .container-staff {
-    color: white;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
-    font: caption;
+    font-family: Arial, sans-serif;
+    font-size: larger;
 }
 
 .container-staffa {
-    color: white;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
-    font: caption;
+    font-family: Arial, sans-serif;
+    font-size: larger;
 }
 
 .rampage-content {
@@ -321,9 +343,23 @@ body {
 }
 
 .text {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+}
+
+.discord-box {
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font: caption;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

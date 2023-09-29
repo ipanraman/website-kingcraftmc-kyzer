@@ -20,9 +20,6 @@
                 <li class="li-navbar">
                     <a href="perks.html" class="a-navbar">PERKS</a>
                 </li>
-                <li class="li-navbar">
-                    <a href="discord.html" class="a-navbar">DISCORD</a>
-                </li>
             </ul>
         </div>
         <!-- NAVIGATION BAR SELESAI -->
@@ -30,12 +27,21 @@
             <img src="kyzerlogoonly-removebg-preview.png" class="img-content" />
         </div>
         <!-- CONTENT PERKENALAN -->
-        <div class="container-perks">
-            <body>
-                <a href="file:///C:/Users/USER/Downloads/Website%20KyzerNetwork/Global.html">
-                    <h1>🌐Global</h1>
-                </a>
-            </body>
+        <div class="store-content">
+            <img src="VIP_LOGO-removebg-preview.png" class="vip-logo">
+            <img src="VIP+_LOGO-removebg-preview.png" class="vipplus-logo">
+            <img src="MVP_LOGO-removebg-preview.png" class="mvp-logo">
+            <img src="MVP__LOGO-removebg-preview.png" class="mvpplus-logo">
+            <img src="LEGEND_LOGO-removebg-preview.png" class="legend-logo">
+            <img src="SPECIAL_LOGO-removebg-preview.png" class="special-logo">
+            <img src="KING_LOGO-removebg-preview.png" class="king-logo">
+            <img src="SUPREME_LOGO-removebg-preview.png" class="supreme-logo">
+            <img src="CUST_LOGO-removebg-preview.png" class="custom-logo">
+            <img src="PREMIUM_LOGO-removebg-preview.png" class="premium-logo">
+            <img src="PREMIUM+_LOGO-removebg-preview.png" class="premiumplus-logo">
+            <img src="SUPPORTER_LOGO-removebg-preview.png" class="supporter-logo">
+            <img src="INVESTOR_LOGO-removebg-preview.png" class="investor-logo">
+            <img src="INVESTOR+_LOGO-removebg-preview.png" class="investorplus-logo">
         </div>
         <!-- CONTENT STORE -->
         <div>
